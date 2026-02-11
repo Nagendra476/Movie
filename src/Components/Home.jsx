@@ -6,7 +6,7 @@ import salaarImg from "../Images/salaar.jpg";
 import hinannaImg from "../Images/hinanna.jpg";
 import kantaraImg from "../Images/kantara.jpg";
 import animalImg from "../Images/animal.jpg";
-import zootopiaImg from "../Images/zootopia.jpg";
+
 import avatarImg from "../Images/avatar.jpg";
 import Navbar from "./Navbar";
 
@@ -16,7 +16,6 @@ const movies = [
   { id: 2, title: "Hi Nanna", poster: hinannaImg,rating: "⭐ 7.5" },
   { id: 3, title: "Kantara", poster: kantaraImg, rating: "⭐ 8.7" },
   { id: 4, title: "Animal", poster: animalImg, rating: "⭐ 7.9" },
-  { id: 5, title: "Zootopia", poster: zootopiaImg, rating: "⭐ 8.0" },
   { id: 6, title: "Avatar", poster: avatarImg,  rating: "⭐ 7.8" },
   { id: 7, title: "Avatar", poster: avatarImg,  rating: "⭐ 7.8" },
 ];
