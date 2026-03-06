@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logoImg from "../images/image2.jpg";
+import logoImg from "../Images/image2.jpg";
 
 const Navbar = () => {
   const [city, setCity] = useState(["Hyderabad", "KPHB"][1]);
@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="hidden md:flex flex-1 mx-8">
             <input
               type="text"
-              placeholder="Search for Movies, Events, Plays, Sports..."
+              placeholder="Search for Movies, Events, Plays, Sports...."
               className="w-full bg-gray-100 px-5 py-2 rounded-lg outline-none text-gray-700 shadow-inner border border-gray-200 focus:ring-2 focus:ring-red-400"
             />
           </div>
